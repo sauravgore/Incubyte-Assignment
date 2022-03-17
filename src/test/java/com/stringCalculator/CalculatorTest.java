@@ -28,4 +28,11 @@ public class CalculatorTest {
 	public void shouldReturnSumOfNumbersOnTwoStrings() {
 		assertEquals(3, Calculator.add("1,2"));
 	}
+    
+    //	Task - 2: Allow the Add method to handle an unknown amount of numbers
+	//	TODO: for multiple strings separated by commas it will return sum of all
+	@Test
+	public void shouldReturnSumOfAllNumbers() {
+		assertEquals(6, Calculator.add("1,2,3"));
+	}
 }
