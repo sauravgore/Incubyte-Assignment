@@ -16,4 +16,10 @@ public class CalculatorTest {
     public void shouldReturnZeroOnEmptyString() {
         assertEquals(0, Calculator.add(""));
     }
+
+    // TODO: for single string it will return same string
+	@Test
+	public void shouldReturnNumberOnSingleString() {
+		assertEquals(1, Calculator.add("1"));
+	}
 }
