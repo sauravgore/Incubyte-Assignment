@@ -1,4 +1,4 @@
-#Incubyte Assigment
+# Incubyte Assigment
 
 Before you start:
 Try not to read ahead.
