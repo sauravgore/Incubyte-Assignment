@@ -49,4 +49,10 @@ public class CalculatorTest {
 	public void shouldAllowCustomDelimiter() {
 		assertEquals(3, Calculator.add("//;\n1;2"));
 	}
+
+    //	TODO: Custom Delimiter can be custom Regex Character
+	@Test
+	public void shouldAllowRegexCharAsCustomDelimiter() {
+		assertEquals(3, Calculator.add("//.\n1.2"));
+	}
 }
